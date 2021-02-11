@@ -1,7 +1,7 @@
-version: '3.3'
+version: '3.9'
 services:
   grafana:
-    image: "grafana/grafana:5.0.0-beta3"
+    image: "grafana/grafana:7.4.0"
     volumes:
       - "./config/provisioning:/etc/grafana/provisioning"
       - "./config/custom.ini:/etc/grafana/custom.ini"
